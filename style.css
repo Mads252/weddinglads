@@ -94,7 +94,6 @@ body{
     align-items: center;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
-
 }
 .card_icon{
     background-color: #EBEBEB;
@@ -175,20 +174,112 @@ body{
     margin-right: 5%;
 }
   .tidsplan_på_dagen{
+    margin-top: 7%;
     background-color: #D98E8E;
     width: 100%;
     height: 150px;
     display: flex;
     position: relative;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+  }
+  .din_ønskeliste{
+    margin-top: 7%;
+    background-color: #D3DAF2;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
   }
 
+
   .home_Card_text{
-    font-size: 24px;
+    font-size: 27px;
     position: absolute;
-    bottom: 0%;
-    margin-left: 2%;
+    bottom: 8%;
+    margin-left: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 .tidsplan_på_dagen_icon{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
+
+.catering_grøn{
+    background-color: #1A2F20;
+}
+.florist_pink{
+    background-color: #FBC1EB;
+}
+.præst_brun{
+    background-color: #947256;
+}
+
+#leverandører_top_text{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Cards_tester_two{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
     
+    
+}
+.card_two{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.card_icon_two{
+    background-color: #EBEBEB;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 35%;
+    z-index: 1;
+    align-items: center;
+}
+
+.icon_size_two{
+    width: 60%;
+    height: 60%;
+}
+
+.card_bund_two{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px ;
+    position: absolute;
+    bottom: 0;
+}
+
+.card_text_two{
+    position: absolute;
+    bottom: 2%;
+    z-index: 1;
+}
+.card_text_style_two{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    color: #422813;
 }
