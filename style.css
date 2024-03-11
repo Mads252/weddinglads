@@ -168,3 +168,27 @@ body{
     }
   }
   
+
+
+.table_margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  .tidsplan_på_dagen{
+    background-color: #D98E8E;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+  }
+
+  .home_Card_text{
+    font-size: 24px;
+    position: absolute;
+    bottom: 0%;
+    margin-left: 2%;
+  }
+.tidsplan_på_dagen_icon{
+    
+}
