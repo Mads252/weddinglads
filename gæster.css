@@ -167,6 +167,32 @@ body{
       transform: rotate(1turn);
     }
   }
+
+  .searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 15px 15px 15px;
+  }
+
+  .search{
+    width: 90%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 60px;
+    background-color: white;
+  }
+
+  .search-input{
+    font-family: "Inter", sans-serif;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 320px;
+  }
   
   .sunegæstebaggrund{
     background-color: white;
@@ -175,7 +201,7 @@ body{
     align-content: center;
     width: 90%;
     margin: 5%;
-    height: 1000px;
+    height: 550px;
     border-radius: 12px;
     font-family: "Inter", sans-serif;
   }
@@ -274,4 +300,8 @@ p{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
     overflow: hidden;
+}
+
+@media screen (680) {
+    
 }
