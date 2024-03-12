@@ -1,0 +1,56 @@
+.card_two_catering{
+    border-radius: 15px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.Find_på_et_navn_sune{
+    margin-top: 5%;
+}
+
+.Cards_tester_two_lev{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 5%;
+    
+}
+
+
+.Cards_tester_two_lev_bund{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 5%;
+    
+}
+
+.center-card{
+    margin-left: 4%;
+
+}
+.billede_container_lille_kort{
+   
+}
+
+.billede_lille_kort{
+    border-radius: 15px;
+    width: 100%;
+}
+.lille_kort_icon{
+    position: absolute;
+    margin-top: 5%;
+    
+}
+
+.limegrøn{
+    background-color: #DEEDD7;
+}
+#florist,#kage,#kage,#venues{margin-top: 10%;}
