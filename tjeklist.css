@@ -198,9 +198,10 @@ body{
   }
 
   .tjeklistecontainer{
-    width: 100%;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    font-family: "Inter", sans-serif;
   }
 
   .tjeklisteoverskrift{
@@ -210,4 +211,37 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .tjeklisteoptions{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .findcatering{
+    display: flex;
+  }
+
+  .bagerhuelogo{
+    padding: 10px;
+  }
+
+  .checkmark{
+    
+  }
+
+  .fake{
+    padding: 50px;
+  }
+
+  .checkmarklogo{
+    
+  }
+
+  .deadline{
+    display: flex;
+    flex-direction: column;
   }
