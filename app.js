@@ -20,7 +20,7 @@ var x = setInterval(function() {
 
   // Loop through each element with class="countdown" and update its content
   for (var i = 0; i < elements.length; i++) {
-    elements[i].innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    elements[i].innerHTML = + days + " dage til dit bryllup ";
   }
 
   // If the countdown is over, display a message
@@ -69,5 +69,5 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " aktiv_prik";
-  setTimeout(showSlides, 3000); 
+  setTimeout(showSlides, 5000); 
 }

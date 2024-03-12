@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>bar test</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="budget.css">
     <link rel="manifest" href="/test.json">
     <script src="app.js" defer></script>
 </head>
@@ -18,14 +19,94 @@
                  <p class="profile_text">Velkommen<br> Kim Love</p>           
             </div>
             <div class="notification_bell">
+                <a href=""><img src="nav_icons/brevkassse_icon.svg" alt="" class="hjerte_icon_style"></a>
                 <a href=""><img src="nav_icons/hjerte_icon.svg" alt="" class="hjerte_icon_style"></a>
                 <a href=""><img src="nav_icons/notificationBell.svg" alt="" ></a>
             </div>
         </div>
-
+        <form class="searchbox">
+            <div class="search">
+                <img src="card_icons/searchikon.svg" alt="" class="search-icon">
+                <input class="search-input" type="search" placeholder="Søg...">
+            </div>
+        </form>
+        <div class="tilbage_knap sektiones" style="margin-bottom: 5%;">
+            <a href="index.html"><img src="nav_icons/tilbage_icon.svg" alt=""></a>
+        </div>
     </header>
     
     
+    <section id="budget_overvågning" class="sektiones">
+            <div class="fake_div"></div>
+                <h2 class="overskrift_budget_overvågning">Budget overvågning</h2>
+           
+           
+
+            <div class="de_tre_øverste_bokse sektiones">
+                    <div class="budget_boks">
+                        <h6 class="budget_tekst ">Total budget</h6>
+                        <h6 class="budget_beløb">100,000 kr.</h6>
+                    </div>
+                    <div class="budget_boks">
+                        <h6 class="budget_tekst">Brugt</h6>
+                        <h6 class="budget_beløb">35,000 kr.</h6>
+                    </div>
+                    <div class="budget_boks ">
+                        <h6 class="budget_tekst">Tilbage</h6>
+                        <h6 class="budget_beløb">65,000 kr.</h6>
+                    </div>
+            </div>
+
+            <div class="sektiones betalt_flueben ">
+            <h2 class="overskrift_budget_overvågning tekst_left">Betalt</h2>
+            <img src="card_icons/flue_ben.svg" alt="" style="margin-left: 10px; margin-top: 5%;">
+            </div>
+
+            <div class="betalte_florist_brudekjole sektiones">
+                <div class="betalte_florist_brudekjole_cards">
+                    <img src="billeder/brudekjole_fail.svg" alt="" class="betalte_florist_brudekjole_cards_billeder">
+                    <h6 class="betalte_florist_brudekjole_cards_tekst1">Brudekjole</h6>
+                    <h6 class="betalte_florist_brudekjole_cards_tekst2">15.000 kr.</h6>
+                </div>
+                <div class="betalte_florist_brudekjole_cards">
+                    <img src="billeder/blomster_fail.svg" alt="" class="betalte_florist_brudekjole_cards_billeder">
+                    <h6 class="betalte_florist_brudekjole_cards_tekst1">Florist</h6>
+                    <h6 class="betalte_florist_brudekjole_cards_tekst2">3.000 kr.</h6>
+                </div>
+            </div>
+
+            <div id="kommende_betalinger" class="sektiones">
+                <h3 class="overskrift_budget_overvågning tekst_left">Kommende betalinger</h3>
+                <div class="kommende_betalinger_container">
+                    <div class="kommende_betalinger_container_venstre">
+                        <img src="card_icons/kokkehue_pink.svg" alt="">
+                        <p class="kommende_betalinger_container_tekst">Xune Cater</p>
+                    </div>
+                    <div>
+                        <p>15.000 kr.</p>
+                    </div>
+                </div>
+                <div class="kommende_betalinger_linje"></div>
+                <div class="kommende_betalinger_container">
+                    <div class="kommende_betalinger_container_venstre">
+                        <img src="card_icons/lagkage_pink.svg" alt="">
+                        <p class="kommende_betalinger_container_tekst">Kage Brødre</p>
+                    </div>
+                    <div>
+                        <p>3.000 kr.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <div class="fyldediv"></div>
+
+
+
+
    
     <footer>
         

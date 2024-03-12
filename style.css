@@ -380,8 +380,9 @@ body{
 .billeder_slides {display: none;}
 .slideshow_hjem_container {
   position: relative;
-
+ 
 }
+
 
 .slides_text {
   color: #000000;
@@ -391,10 +392,11 @@ body{
   height: 40%;
   width: 100%;
   display: flex;
-  background-color: #f2f2f264;
+  background-color: #f2f2f2a9;
   align-items: center;
   font-family: "Inter", sans-serif;
   font-weight: 200;
+  
 }
 .prik {
   height: 4px;
