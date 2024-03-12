@@ -24,10 +24,45 @@ font-weight: 200;
 }
 
 .budget_boks{
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
     width: 30%;
     height: 60px;
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
+    border-color: #969696;
+}
+
+.budget_tekst, .budget_beløb{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 200; 
+    font-size: 14px;
+}
+.budget_tekst{
+color: #969696;
+}
+
+.budget_beløb{
+    font-weight: bold;
+}
+
+.tekst_left{
+    text-align: left;
+}
+
+.betalt_flueben{
+    display: flex;
+    flex-direction: row;
+}
+
+.betalte_florist_brudekjole{
+
+
+}
+.betalte_florist_brudekjole_cards{
+
 }
