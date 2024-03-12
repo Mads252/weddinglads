@@ -371,3 +371,51 @@ body{
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
+
+.billeder_slides {display: none;}
+.slideshow_hjem_container {
+  position: relative;
+
+}
+
+.slides_text {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  background-color: #f2f2f264;
+  align-items: center;
+}
+.prik {
+  height: 4px;
+  width: 40px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 15px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.prikker{text-align: center;}
+
+.aktiv_prik {
+  background-color: #18e62d;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.slides_billeder_img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
