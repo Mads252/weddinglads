@@ -52,12 +52,14 @@ body{
     background-color: white;
     align-content: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 999;
 }
 
 .footer_items{
     flex-grow: 1;
     height: 25px;
     display: flex;
+   
 }
 
 
@@ -94,7 +96,6 @@ body{
     align-items: center;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
-
 }
 .card_icon{
     background-color: #EBEBEB;
@@ -168,3 +169,289 @@ body{
     }
   }
   
+
+
+.table_margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  .tidsplan_på_dagen{
+    margin-top: 7%;
+    background-color: #D98E8E;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+  }
+  .din_ønskeliste{
+    margin-top: 7%;
+    background-color: #D3DAF2;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+  }
+
+
+  .home_Card_text{
+    font-size: 27px;
+    position: absolute;
+    bottom: 8%;
+    margin-left: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+  }
+.tidsplan_på_dagen_icon{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
+
+.catering_grøn{
+    background-color: #1A2F20;
+}
+.florist_pink{
+    background-color: #FBC1EB;
+}
+.præst_brun{
+    background-color: #947256;
+}
+
+.sektiones{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Cards_tester_two{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+}
+.overskrift_cards_text{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10%;
+   align-items: flex-end;
+}
+.overskift_cards{
+    margin-bottom: 0;
+    color: #422813;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+.overskift_cards_2{
+    margin-bottom: 0;
+    color: #422813;
+    font-size: 10px;
+
+}
+.card_two{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.card_icon_two{
+    background-color: #EBEBEB;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 35%;
+    z-index: 1;
+    align-items: center;
+}
+
+.icon_size_two{
+    width: 60%;
+    height: 60%;
+}
+
+.card_bund_two{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px ;
+    position: absolute;
+    bottom: 0;
+}
+
+.card_text_two{
+    position: absolute;
+    bottom: 2%;
+    z-index: 1;
+}
+.card_text_style_two{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    color: #422813;
+}
+
+.slot_card_one{
+    width: 100%;
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+
+.image-container-slot {
+    height: 50%;
+    overflow: hidden;
+  }
+  
+  .card-image-slot {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .slot_text{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    margin-left: 5px;
+    width: 250px;
+}
+
+.slot_pic{
+    display: flex;
+    margin-left: 4%;
+    width: 56px;
+    height: 56px;
+    margin-top: -60px;
+
+}
+
+.slot_text_beskrivelse{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+    color: #422813;
+    margin-left: 2%;
+}
+.card_text_bund_slot1{
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+.card_text_bund_slot{
+    margin-left: 2%;
+    display: flex;
+    
+}
+
+
+.slot_card_two{
+    
+    width: 100%;
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.billeder_slides {display: none;}
+.slideshow_hjem_container {
+  position: relative;
+
+}
+
+.slides_text {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  background-color: #f2f2f264;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+.prik {
+  height: 4px;
+  width: 40px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 15px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.prikker{text-align: center;}
+
+.aktiv_prik {
+  background-color: #000000;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.slides_billeder_img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .search{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 60px;
+    background-color: white;
+  }
+
+  .search-input{
+    font-family: "Inter", sans-serif;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 320px;
+  }
