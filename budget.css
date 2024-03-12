@@ -9,12 +9,14 @@ font-weight: 200;
     background-color: white;
     border-radius: 15px;
 }
-
+.fake_div{
+    height: 1px;
+}
 .overskrift_budget_overvågning{
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: medium;
-    
+    margin-top: 10%;
 }
 
 .de_tre_øverste_bokse{
@@ -59,10 +61,58 @@ color: #969696;
     flex-direction: row;
 }
 
+
+
 .betalte_florist_brudekjole{
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.betalte_florist_brudekjole_cards{
 
+
+.betalte_florist_brudekjole_cards_billeder{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+.betalte_florist_brudekjole_cards_tekst1{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200; 
+}
+
+.betalte_florist_brudekjole_cards_tekst2{
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold; 
+}
+
+
+.kommende_betalinger_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.kommende_betalinger_container_venstre{
+    display: flex;
+    flex-direction: row;
+}
+
+.kommende_betalinger_container_tekst{
+    margin-left: 15px;
+}
+
+.kommende_betalinger_linje{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.135);
+    height: 1px;
+}
+
+.fyldediv{
+    height: 400px;
 }
