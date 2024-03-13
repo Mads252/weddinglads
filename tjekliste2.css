@@ -232,6 +232,15 @@ body{
     flex-direction: column;
   }
 
+  .pillogo{
+    width: 25px;
+    height: 25px;
+  }
+
+  .pilknap{
+    margin-left: 5%;
+  }
+
   .idk{
     justify-content: space-between;
     display: flex;
@@ -262,17 +271,6 @@ body{
     height: 40px;
   }
 
-  .deadline{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -20px;
-    margin-bottom: 0;
-    font-weight: 200;
-    font-size: small;
-    color: grey;
-  }
-
   .findflorist{
     display: flex;
   }
@@ -289,31 +287,4 @@ body{
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
-  }
-
-  .tilføjmere{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    }
-
-  .tilføjmerelogo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55px;
-    height: 55px;
-  }
-
-  .tilføjcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .knaptjekliste{
-    border: 0;
   }
