@@ -71,3 +71,8 @@ function showSlides() {
   dots[slideIndex-1].className += " aktiv_prik";
   setTimeout(showSlides, 5000); 
 }
+
+
+
+
+// dette er vores firebase test til ønskelisten

@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>bar test</title>
-    <link rel="stylesheet" href="style.css2">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ønskeliste.css">
     <link rel="manifest" href="/test.json">
-    <script src="app.js" defer></script>
+    <script src="ønskeliste.js" defer type="module"></script>
+    <script src="app.js" defer ></script>
+
 </head>
 <body>
     <div class="loader"></div>
@@ -18,16 +21,31 @@
                  <p class="profile_text">Velkommen<br> Kim Love</p>           
             </div>
             <div class="notification_bell">
+                <a href=""><img src="nav_icons/brevkassse_icon.svg" alt="" class="hjerte_icon_style"></a>
                 <a href=""><img src="nav_icons/hjerte_icon.svg" alt="" class="hjerte_icon_style"></a>
                 <a href=""><img src="nav_icons/notificationBell.svg" alt="" ></a>
             </div>
         </div>
 
     </header>
-    
-   
+    <section id="ønskeliste" class="sektiones">
+        <div class="ønskeliste_headline"><p class="ønskeliste_headline_tekst">Ønskeliste</p></div>
+        <div class="ønsker sektiones">
+                <ol id="ønske_list">
+                </ol>
+                
+        </div>
+        <div class="tilføj_ønske_container">
+            <h6 style="margin-bottom: 2%;">Tilføj ønske</h6>
+            <button class="button_plus" id="add-button"></button>
+            <input type="text" id="input-field" placeholder="ønske">
+            
+        </div>
+    </section>
+
+
+
     <footer>
-        
         <ul class="footer_list">
             <a href="budget.html" class="footer_items"><img src="nav_icons/budget.svg" alt="budget" class="footer_items"></a>
             <a href="tjeklist.html" class="footer_items"><img src="nav_icons/tjeklist_active.svg" alt="tjeklist" class="footer_items"></a>
