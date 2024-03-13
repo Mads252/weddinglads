@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #F4F1EE;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* farvekoder */
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9ACE8;
+    transition: opacity 2s, visibility 5s;
+    z-index: 999;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: black;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  .billede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .weddinglablogo{
+    margin: 5%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .container{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    border-radius: 15px;
+  }
+
+  .logind{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-text{
+    height: 40px;
+  }
+
+  .input-box input{
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px 45px 20px 10px;
+  }
+
+  .input-box input::placeholder{
+    color: grey;
+  }
+
+  .container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+
+  .container input[type="checkbox"]{
+    order: -1;
+    margin-right: 5px;
+  }
+
+  .container .remember-forgot-2{
+    margin-top: 10px;
+  }
+
+  .remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+
+  .remember-forgot a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+  }
+
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+
+  .container .btn{
+    width: 90%;
+    height: 40px;
+    background-color: #D98E8E;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container .registrer-link{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .registrer-link p a{
+    color: #D98E8E;
+    text-decoration: none;
+
+  }
+
