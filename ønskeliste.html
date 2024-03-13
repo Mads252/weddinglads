@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="ønskeliste.css">
     <link rel="manifest" href="/test.json">
-    <script src="app.js" defer></script>
+    <script src="ønskeliste.js" defer type="module"></script>
+    <script src="app.js" defer ></script>
+
 </head>
 <body>
     <div class="loader"></div>
@@ -29,36 +31,18 @@
     <section id="ønskeliste" class="sektiones">
         <div class="ønskeliste_headline"><p class="ønskeliste_headline_tekst">Ønskeliste</p></div>
         <div class="ønsker">
-                <ul>
-                  <li>Underhakker
-                    <div class="break_line"></div>
-                  </li>
-                  <li>Underhakker
-                    <div class="break_line"></div>
-                  </li>
-                  <li>Underhakker
-                    <div class="break_line"></div>
-                  </li>
-                  <li>Underhakker
-                    <div class="break_line"></div>
-                  </li>
-                  <li>Underhakker
-                    <div class="break_line"></div>
-                  </li>
-                  <li>Underhakker
-                    <div class="break_line"></div>
-                  </li>
-                  
-                </ul>
+                <ul id="ønske_list"></ul>
         </div>
         <div class="tilføj_ønske_container">
             <h6 style="margin-bottom: 2%;">Tilføj ønske</h6>
-            <div class="button_plus"></div>
+            <button class="button_plus" id="add-button"></button>
+            <input type="text" id="input-field" placeholder="ønske">
         </div>
     </section>
-   
+
+
+
     <footer>
-        
         <ul class="footer_list">
             <a href="budget.html" class="footer_items"><img src="nav_icons/budget.svg" alt="budget" class="footer_items"></a>
             <a href="tjeklist.html" class="footer_items"><img src="nav_icons/tjeklist_active.svg" alt="tjeklist" class="footer_items"></a>
