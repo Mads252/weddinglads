@@ -46,7 +46,7 @@ onValue(moviesInDB, function(snapshot){
         let itemsarray = Object.entries(snapshot.val())
 
     clearShoppingListEl()
-
+        
    for (let i= 0; i < itemsarray.length; i++) {
         let currentItem = itemsarray[i]
         let currentItemId = currentItem[0]
@@ -75,6 +75,7 @@ function tilføjTingTilListe(item){
 
     
     let newEl = document.createElement("li")
+    newEl.className = "ønskelist_style";
     let itemId = item[0]
     let itemValue = item[1]
     newEl.textContent = itemValue
