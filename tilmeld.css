@@ -111,39 +111,6 @@ body{
     color: grey;
   }
 
-  .container .remember-forgot{
-    display: flex;
-    justify-content: space-between;
-    font-size: small;
-    flex-direction: column;
-    margin-left: 5%;
-  }
-
-  .container input[type="checkbox"]{
-    order: -1;
-    margin-left: 143px;
-    position: absolute;
-  }
-
-  .container .remember-forgot-2{
-    margin-top: 10px;
-  }
-
-  .remember-forgot label input{
-    accent-color: #fff;
-    margin-right: 3px;
-  }
-
-  .remember-forgot a{
-    color: black;
-    text-decoration: none;
-    font-size: small;
-  }
-
-  .remember-forgot a:hover{
-    text-decoration: underline;
-  }
-
   .container .btn{
     width: 90%;
     height: 40px;
@@ -160,13 +127,25 @@ body{
     margin-bottom: 20px;
   }
 
-  .container .registrer-link{
+  a.btn {
+    display: inline-block;
+    width: 90%;
+    height: 40px;
+    background-color: #D98E8E;
+    color: white;
     text-align: center;
-    margin-top: 20px;
-  }
-
-  .registrer-link p a{
-    color: #D98E8E;
     text-decoration: none;
+    line-height: 40px;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-  }
+a.btn:hover {
+    background-color: #C77070;
+}
+
