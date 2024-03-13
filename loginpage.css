@@ -119,7 +119,8 @@ body{
 
   .container input[type="checkbox"]{
     order: -1;
-    margin-right: 5px;
+    margin-left: 145px;
+    position: absolute;
   }
 
   .container .remember-forgot-2{
