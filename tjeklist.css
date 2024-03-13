@@ -1,0 +1,315 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #F4F1EE;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* farvekoder */
+
+.profile_text{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #D98E8E;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.profile_pic{
+    display: flex;
+    margin-left: 4%;
+    width: 56px;
+    height: 56px;
+}
+.notification_bell{
+    margin-right: 4%;
+}
+.hjerte_icon_style{
+    margin-right: 5px;
+}
+.header_container{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.footer_list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    background-color: white;
+    align-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 999;
+}
+
+.footer_items{
+    flex-grow: 1;
+    height: 25px;
+    display: flex;
+   
+}
+
+
+
+
+
+
+.countdown{
+    font-size: 10px;
+    display: flex;
+    margin-top: 4px;
+    text-align: right;
+}
+
+
+
+
+/* dette er en card test */
+
+#Cards_tester{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.card_one{
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;;
+    background-color: #F9ACE8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+.card_icon{
+    background-color: #EBEBEB;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 35%;
+    z-index: 1;
+}
+.icon_size{
+    width: 90%;
+    height: 90%;
+}
+.card_text{
+    position: absolute;
+    bottom: 10%;
+    z-index: 1;
+}
+.card_text_style{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+.card_bund{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 0px 30px 30px ;
+    position: absolute;
+    bottom: 0;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9ACE8;
+    transition: opacity 2s, visibility 5s;
+    z-index: 999;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: black;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  p{
+    font-weight: bold;
+  }
+  
+  .searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .search{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 60px;
+    background-color: white;
+  }
+
+  .search-input{
+    font-family: "Inter", sans-serif;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 320px;
+  }
+
+  .tjeklistecontainer{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Inter", sans-serif;
+  }
+
+  .tjeklisteoverskrift{
+    background-color: #D98E8E;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px ;;
+  }
+
+  .overskrifttjekliste{
+    margin-left: 10%;
+    font-weight: bold;
+  }
+
+  .tjeklisteoptions{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .idk{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+
+  .findcatering{
+    display: flex;
+  }
+
+  .bagerhuelogo{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .checkmark{
+    display: flex;
+  }
+
+  .fake{
+    width: 170px;
+    height: 1px;
+  }
+
+  .checkmarklogo{
+    width: 40px;
+    height: 40px;
+  }
+
+  .deadline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-weight: 200;
+    font-size: small;
+    color: grey;
+  }
+
+  .findflorist{
+    display: flex;
+  }
+
+  .blomstlogo{
+    width: 40px;
+    height: 40px;
+  }
+
+  .streg{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .tilføjmere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    }
+
+  .tilføjmerelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+  }
+
+  .tilføjcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
