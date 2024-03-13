@@ -159,6 +159,28 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  a.btn_test {
+    display: inline-block;
+    width: 90%;
+    height: 40px;
+    background-color: #D98E8E;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a.btn_test:hover {
+    background-color: #C77070;
+}
+ 
 
   .container .registrer-link{
     text-align: center;
