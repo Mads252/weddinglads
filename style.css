@@ -459,4 +459,7 @@ body{
   .din_ønskeliste_link{
     color: inherit;
   }
-  
+
+  .abc{
+    text-decoration: none;
+  }
