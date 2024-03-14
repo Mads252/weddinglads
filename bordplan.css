@@ -1,0 +1,121 @@
+#bordplan_hestesko{
+    background-color: #fff;
+}
+
+.person_container{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.person_container_under{
+    border-radius: 5px;
+    background-color: #DEFFCF;
+    border:  2px solid #368C0D;
+    cursor: pointer;
+     /* husk at slette*/
+     margin-left: 5px;
+}
+.sæde_navn{
+    width: 100%;
+    
+    font-size: 5px;
+    text-align: center;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    border-top:  2px solid #368C0D;
+    margin-bottom: 4px;
+
+   
+}
+
+
+.bord_1{
+    
+    width: 200px;
+    background-color: #E1D5C9;
+    transform: rotate(90deg);
+    margin-left: -25%;
+    text-align: center;
+    border: 1px solid #744B4B;
+    color: #744B4B;
+}
+
+.bord_1_flex{
+    display: flex;
+    align-items: center;
+
+}
+
+.person_container_1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.person_container_2{
+    display: flex;
+    flex-direction: row;
+   
+   margin-top: 80%;
+   margin-left: -65%;
+
+}
+
+.bord_2{
+    width: 200px;
+    background-color: #E1D5C9;
+    height: 15%;
+    margin-top: 150px;
+    margin-left: -40px;
+    text-align: center;
+    border: 1px solid #744B4B;
+    color: #744B4B;
+}
+
+.bord_2_flex{
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: -420px;
+}
+
+
+.bord_3_flex{
+    display: flex;
+    align-items: center;
+   flex-direction: row-reverse;
+    margin-left: -60%;
+}
+
+.person_container_3{
+    display: flex;
+    flex-direction: column;
+    margin-left: -25%;
+}
+
+
+.bord_3{
+    width: 200px;
+    background-color: #E1D5C9;
+    transform: rotate(270deg);
+    margin-left: -25%;
+    text-align: center;
+    border: 1px solid #744B4B;
+    color: #744B4B;
+}
+
+.bord_plan{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+   
+}
+
+.personer_undercontainer{
+    display: flex;
+    
+    justify-content: space-between;
+}
