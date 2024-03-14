@@ -3,7 +3,7 @@
     "short_name": "Wedding Lab",
     "icons": [
       {
-        "src": "nav_icons/profilepictest3.png",
+        "src": "billeder/app_logo_wedding_lab.svg",
         "sizes": "192x192",
         "type": "image/png"
       }
